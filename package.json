@@ -6,7 +6,12 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "docs:generate": "node scripts/generate-api-docs.js",
+    "docs:examples": "node scripts/extract-examples.js",
+    "docs:dev": "next dev",
+    "docs:build": "next build",
+    "docs:start": "next start"
   },
   "dependencies": {
     "clsx": "^2.1.1",
